@@ -1,0 +1,14 @@
+# Build artefacts
+sim_build/
+__pycache__/
+*.pyc
+*.pyo
+results.xml
+dump.fst
+dump.vcd
+*.vvp
+
+# Editor temporaries
+*.swp
+*.swo
+.DS_Store
