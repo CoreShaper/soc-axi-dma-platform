@@ -3,8 +3,19 @@ SIM = verilator
 
 VERILOG_SOURCES = $(PWD)/rtl/top.v
 TOPLEVEL = top
-MODULE = test_smoke   # 或 toggle_test.py 文件名
+COCOTB_TEST_MODULES = tb.test_smoke
 
-WAVES = 1
+EXTRA_ARGS += --trace --trace-fst --trace-structs
+
+.PHONY: run
+run: 
+	$(MAKE) sim
+	mv dump.fst waves/
+	gtkwave waves/dump.fst
+	
+
+clean::
+	rm -rf sim_build results.xml  waves/dump.fst
 
 include $(shell cocotb-config --makefiles)/Makefile.sim
+
