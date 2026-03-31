@@ -1,0 +1,46 @@
+
+25. Printing statistics.
+
+=== top ===
+
+        +----------Local Count, excluding submodules.
+        |        +-Local Area, excluding submodules.
+        |        | 
+       66        - wires
+       66        - wire bits
+       66        - public wires
+       66        - public wire bits
+       20        - ports
+       20        - port bits
+       55    176.4 cells
+        2     3.36   AND2X1H7L
+        1     3.64   AOI21X4H7L
+        2     3.92   AOI2BB1X0P5H7L
+        1     2.24   AOI2BB1X2H7L
+        2     3.92   AOI31X0P5H7L
+        1     2.24   AOI31X2H7L
+        1      4.2   AOI31X4H7L
+        9    70.56   DFFRQX2H7L
+        1     6.16   ICGX0P5H7L
+        2     1.68   INVX0P5H7L
+        2     2.24   NAND2X0P5H7L
+        1     1.12   NAND2X1P4H7L
+        4     4.48   NOR2X0P5H7L
+        1     1.12   NOR2X1P4H7L
+        1      1.4   OAI21X0P5H7L
+        1      1.4   OAI21X1P4H7L
+        1     3.08   OAI222X1H7L
+        2     5.04   OAI31X2H7L
+        1     2.24   OAOI211X1P4H7L
+        1     2.52   OAOI211X2H7L
+        1      4.2   OAOI211X4H7L
+        2      2.8   OR2X0P5H7L
+        4     11.2   XNOR2X0P5H7L
+        3      8.4   XNOR2X1P4H7L
+        1     3.64   XNOR2X4H7L
+        6     16.8   XOR2X0P5H7L
+        1      2.8   XOR2X1P4H7L
+
+   Chip area for module '\top': 176.400000
+     of which used for sequential elements: 70.560000 (40.00%)
+

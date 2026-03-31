@@ -1,0 +1,543 @@
+I20260331 17:52:49.727505 11595 Sta.cc:383] read verilog file /home/vboxuser/soc-axi-dma-platform/syn_results/top-100MHz/top.netlist.v start
+I20260331 17:52:49.728552 11595 VerilogParserRustC.cc:41] load verilog file /home/vboxuser/soc-axi-dma-platform/syn_results/top-100MHz/top.netlist.v
+r str /home/vboxuser/soc-axi-dma-platform/syn_results/top-100MHz/top.netlist.v
+I20260331 17:52:49.729300 11595 Sta.cc:391] read verilog end
+I20260331 17:52:49.729453 11595 Sta.cc:309] load lib start
+I20260331 17:52:49.733836 11628 Sta.cc:287] read liberty /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib start 
+I20260331 17:52:49.734015 11628 LibParserRustC.cc:1285] load liberty file /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib
+rust read lib file /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib
+I20260331 17:52:56.145080 11628 LibParserRustC.cc:1294] load liberty file /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib success.
+I20260331 17:52:56.145789 11628 Sta.cc:297] read liberty /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib end 
+I20260331 17:52:56.146071 11595 Sta.cc:328] load lib end
+I20260331 17:52:56.146179 11595 Sta.cc:417] link design top start
+I20260331 17:52:56.151530 11636 LibParserRustC.cc:1304] link liberty file /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib start.
+I20260331 17:52:56.154060 11636 LibParserRustC.cc:666] unkown attri name: voltage_map in /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib line no 28
+I20260331 17:53:16.210872 11636 LibParserRustC.cc:1310] link liberty file /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib success.
+I20260331 17:53:16.213495 11595 Sta.cc:1106] link design top end
+I20260331 17:53:16.213989 11595 Sta.cc:1108] design top inst num: 55
+I20260331 17:53:16.214020 11595 Sta.cc:1110] design top net num: 66
+I20260331 17:53:16.214026 11595 Sta.cc:1112] design top port num: 20
+I20260331 17:53:16.214102 11595 Sta.cc:181] read sdc /home/vboxuser/soc-axi-dma-platform/constraints/top.sdc start 
+I20260331 17:53:16.215591 11595 CmdCreateClock.cc:124] create clock clk for pin/port: clk
+I20260331 17:53:16.216025 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216161 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216224 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216347 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216415 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216475 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216766 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216871 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216915 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.216948 11595 CmdSetIODelay.cc:191] set input delay sdc line no : 1
+I20260331 17:53:16.217041 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217080 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217113 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217206 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217244 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217335 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217373 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217404 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217435 11595 CmdSetIODelay.cc:222] set output delay sdc line no : 1
+I20260331 17:53:16.217703 11595 Sta.cc:198] read sdc /home/vboxuser/soc-axi-dma-platform/constraints/top.sdc end 
+I20260331 17:53:16.217803 11595 StaBuildGraph.cc:315] build graph start
+I20260331 17:53:16.218899 11595 StaBuildGraph.cc:332] build graph end
+I20260331 17:53:16.219192 11595 Sta.cc:2834] update timing start
+I20260331 17:53:16.219301 11595 StaApplySdc.cc:698] apply sdc start
+I20260331 17:53:16.219374 11595 StaApplySdc.cc:729] apply sdc end
+I20260331 17:53:16.219594 11595 StaClockPropagation.cc:324] ideal clock propagation start
+I20260331 17:53:16.219605 11595 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20260331 17:53:16.219655 11595 StaClockPropagation.cc:203] clock propagate end to vertex acc[0]_reg_p:CK
+I20260331 17:53:16.219726 11595 StaClockPropagation.cc:422] ideal clock propagation end
+I20260331 17:53:16.219738 11595 StaCheck.cc:129] found loop fwd start
+I20260331 17:53:16.219772 11595 StaCheck.cc:148] found loop fwd end
+I20260331 17:53:16.219776 11595 StaCheck.cc:150] found loop bwd start
+I20260331 17:53:16.219802 11595 StaCheck.cc:172] found loop bwd end
+I20260331 17:53:16.219878 11595 StaClockSlewDelayPropagation.cc:112] clock slew delay propagation start
+I20260331 17:53:16.219894 11595 StaClockSlewDelayPropagation.cc:130] propagating current clock queue vertexes number is 1
+I20260331 17:53:16.219905 11595 StaClockSlewDelayPropagation.cc:130] propagating current clock queue vertexes number is 1
+I20260331 17:53:16.219916 11595 StaClockSlewDelayPropagation.cc:130] propagating current clock queue vertexes number is 1
+I20260331 17:53:16.219928 11595 StaClockSlewDelayPropagation.cc:130] propagating current clock queue vertexes number is 9
+I20260331 17:53:16.219996 11595 StaClockSlewDelayPropagation.cc:163] clock slew delay propagation end
+I20260331 17:53:16.220070 11595 StaClockSlewDelayPropagation.cc:166] clock slew delay propagation memory usage 0MB
+I20260331 17:53:16.220088 11595 StaClockSlewDelayPropagation.cc:169] clock slew delay propagation time elapsed 0.00021s
+I20260331 17:53:16.220124 11595 StaClockPropagation.cc:326] propagated(kNormal) clock propagation start
+I20260331 17:53:16.220127 11595 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20260331 17:53:16.220131 11595 StaClockPropagation.cc:424] propagated(kNormal) clock propagation end
+I20260331 17:53:16.220134 11595 StaApplySdc.cc:698] apply sdc start
+I20260331 17:53:16.220139 11595 StaApplySdc.cc:729] apply sdc end
+I20260331 17:53:16.220142 11595 StaClockPropagation.cc:328] propagated(kGenerated) clock propagation start
+I20260331 17:53:16.220145 11595 StaClockPropagation.cc:354] clock propagation clock num: 1
+I20260331 17:53:16.220148 11595 StaClockPropagation.cc:426] propagated(kGenerated) clock propagation end
+I20260331 17:53:16.220151 11595 StaApplySdc.cc:698] apply sdc start
+I20260331 17:53:16.220201 11595 StaApplySdc.cc:729] apply sdc end
+I20260331 17:53:16.220213 11595 StaBuildPropTag.cc:325] build propagation tag start
+I20260331 17:53:16.220218 11595 StaBuildPropTag.cc:338] build propagation tag end
+I20260331 17:53:16.220223 11595 StaDataPropagation.cc:676] data fwd propagation start
+I20260331 17:53:16.220274 11595 StaDataPropagationBFS.cc:166] data fwd propagation bfs start
+I20260331 17:53:16.220292 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 19
+I20260331 17:53:16.224013 11685 StaDataPropagationBFS.cc:82] Thread 138318624818752 date fwd propagate found start vertex.rst_n
+I20260331 17:53:16.224071 11698 StaDataPropagationBFS.cc:82] Thread 138318515713600 date fwd propagate found start vertex.en
+I20260331 17:53:16.224141 11685 StaDataPropagationBFS.cc:82] Thread 138318624818752 date fwd propagate found start vertex.data_in_0_
+I20260331 17:53:16.224164 11685 StaDataPropagationBFS.cc:82] Thread 138318624818752 date fwd propagate found start vertex.data_in_1_
+I20260331 17:53:16.224174 11685 StaDataPropagationBFS.cc:82] Thread 138318624818752 date fwd propagate found start vertex.data_in_2_
+I20260331 17:53:16.224185 11685 StaDataPropagationBFS.cc:82] Thread 138318624818752 date fwd propagate found start vertex.data_in_4_
+I20260331 17:53:16.224215 11685 StaDataPropagationBFS.cc:82] Thread 138318624818752 date fwd propagate found start vertex.data_in_6_
+I20260331 17:53:16.224224 11685 StaDataPropagationBFS.cc:82] Thread 138318624818752 date fwd propagate found start vertex.data_in_7_
+I20260331 17:53:16.224188 11667 StaDataPropagationBFS.cc:82] Thread 138317936977472 date fwd propagate found start vertex.data_in_3_
+[0;31mE20260331 17:53:16.224339 11671 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[m[0;31mE20260331 17:53:16.224576 11691 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[m[0;31mE20260331 17:53:16.224750 11691 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[m[0;31mE20260331 17:53:16.224303 11685 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[m[0;31mE20260331 17:53:16.224303 11667 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[mI20260331 17:53:16.224189 11698 StaDataPropagationBFS.cc:82] Thread 138318515713600 date fwd propagate found start vertex.data_in_5_
+[0;31mE20260331 17:53:16.224510 11668 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[m[0;31mE20260331 17:53:16.224540 11669 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[m[0;31mE20260331 17:53:16.224323 11690 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[m[0;31mE20260331 17:53:16.224558 11670 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[m[0;31mE20260331 17:53:16.224579 11672 Lib.cc:181] Warning: val outside table ranges:  val = 0; min_val = 0.0121961; max_val = 0.795659
+[mI20260331 17:53:16.226871 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 48
+I20260331 17:53:16.232810 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 40
+I20260331 17:53:16.240392 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 23
+I20260331 17:53:16.251096 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 30
+I20260331 17:53:16.258057 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 8
+I20260331 17:53:16.268242 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 19
+I20260331 17:53:16.282176 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 9
+I20260331 17:53:16.287405 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 9
+I20260331 17:53:16.300202 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 6
+I20260331 17:53:16.306835 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 6
+I20260331 17:53:16.320562 11595 StaDataPropagationBFS.cc:229] data fwd propagation bfs end
+I20260331 17:53:16.320895 11595 StaDataPropagationBFS.cc:232] data fwd propagation bfs memory usage 4.292MB
+I20260331 17:53:16.320922 11595 StaDataPropagationBFS.cc:234] data fwd propagation bfs time elapsed 0.100647s
+I20260331 17:53:16.320932 11595 StaDataPropagation.cc:695] data fwd propagation end
+I20260331 17:53:16.320941 11595 StaDataPropagation.cc:676] data fwd propagation start
+I20260331 17:53:16.321151 11595 StaDataPropagationBFS.cc:166] data fwd propagation bfs start
+I20260331 17:53:16.321182 11595 StaDataPropagationBFS.cc:190] propagating current data queue vertexes number is 0
+I20260331 17:53:16.326579 11595 StaDataPropagationBFS.cc:229] data fwd propagation bfs end
+I20260331 17:53:16.327097 11595 StaDataPropagationBFS.cc:232] data fwd propagation bfs memory usage 0MB
+I20260331 17:53:16.327127 11595 StaDataPropagationBFS.cc:234] data fwd propagation bfs time elapsed 0.005979s
+I20260331 17:53:16.327137 11595 StaDataPropagation.cc:695] data fwd propagation end
+I20260331 17:53:16.327181 11595 StaAnalyze.cc:557] analyze timing path start
+I20260331 17:53:16.327189 11595 StaAnalyze.cc:565] analyze timing path end vertex 1 total 28 start
+I20260331 17:53:16.327280 11595 StaAnalyze.cc:599] analyze timing path end vertex 1 total 28 end
+I20260331 17:53:16.327344 11595 StaAnalyze.cc:303] add path data num 2 to acc[0]_reg_p:D
+I20260331 17:53:16.327359 11595 StaAnalyze.cc:565] analyze timing path end vertex 11 total 28 start
+I20260331 17:53:16.327374 11595 StaAnalyze.cc:599] analyze timing path end vertex 11 total 28 end
+I20260331 17:53:16.327647 11595 StaAnalyze.cc:565] analyze timing path end vertex 21 total 28 start
+I20260331 17:53:16.327672 11595 StaAnalyze.cc:599] analyze timing path end vertex 21 total 28 end
+I20260331 17:53:16.333773 11595 StaAnalyze.cc:603] analyze timing path end
+I20260331 17:53:16.333811 11595 StaApplySdc.cc:698] apply sdc start
+I20260331 17:53:16.333817 11595 StaApplySdc.cc:729] apply sdc end
+I20260331 17:53:16.333820 11595 StaDataPropagation.cc:698] data bwd propagation start
+I20260331 17:53:16.336548 11595 StaDataPropagation.cc:249] propagate start vertex rst_n
+I20260331 17:53:16.336683 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.acc[0]_reg_p:RN
+I20260331 17:53:16.336717 11595 StaDataPropagation.cc:61] the endpoint vertex acc[0]_reg_p:RN has negative slack
+I20260331 17:53:16.336730 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.acc[1]_reg_p:RN
+I20260331 17:53:16.336741 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.acc[2]_reg_p:RN
+I20260331 17:53:16.336752 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.acc[3]_reg_p:RN
+I20260331 17:53:16.336762 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.acc[4]_reg_p:RN
+I20260331 17:53:16.336774 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.acc[5]_reg_p:RN
+I20260331 17:53:16.336781 11595 StaDataPropagation.cc:61] the endpoint vertex acc[5]_reg_p:RN has negative slack
+I20260331 17:53:16.336856 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.acc[6]_reg_p:RN
+I20260331 17:53:16.336876 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.acc[7]_reg_p:RN
+I20260331 17:53:16.336886 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.carry_reg_p:RN
+I20260331 17:53:16.336896 11595 StaDataPropagation.cc:172] Thread 138318850240640 data bwd propagate found end vertex.en_ICGX0P5H7L_E:E
+I20260331 17:53:16.336922 11595 StaDataPropagation.cc:61] the endpoint vertex acc[1]_reg_p:D has negative slack
+I20260331 17:53:16.336994 11595 StaDataPropagation.cc:61] the endpoint vertex acc[6]_reg_p:D has negative slack
+I20260331 17:53:16.337791 11595 StaDataPropagation.cc:61] the endpoint vertex acc_2_ has negative slack
+I20260331 17:53:16.338017 11595 StaDataPropagation.cc:61] the endpoint vertex acc_7_ has negative slack
+I20260331 17:53:16.340937 11595 StaDataPropagation.cc:703] data bwd propagation end
+I20260331 17:53:16.341061 11595 Sta.cc:2895] update timing end
+I20260331 17:53:16.341135 11595 Sta.cc:2898] update timing memory usage 4.292MB
+I20260331 17:53:16.341152 11595 Sta.cc:2900] update timing time elapsed 0.121963s
+I20260331 17:53:16.341379 11595 Sta.cc:2998] start write sta report.
+I20260331 17:53:16.341392 11595 Sta.cc:2999] output sta report path: /home/vboxuser/soc-axi-dma-platform/syn_results/top-100MHz
+I20260331 17:53:16.341863 11595 StaReport.cc:211] report the clock group clk 5 timing paths.
+I20260331 17:53:16.341900 11595 StaReport.cc:206] report the clock group **clock_gating_default** 2 timing paths.
+I20260331 17:53:16.342600 11595 StaReport.cc:211] report the clock group clk 5 timing paths.
+I20260331 17:53:16.342885 11595 StaReport.cc:206] report the clock group **clock_gating_default** 2 timing paths.
+I20260331 17:53:16.343253 11595 StaReport.cc:211] report the clock group clk 1 timing paths.
+I20260331 17:53:16.343348 11595 StaReport.cc:206] report the clock group **clock_gating_default** 1 timing paths.
+I20260331 17:53:16.343425 11595 StaReport.cc:211] report the clock group clk 5 timing paths.
+I20260331 17:53:16.343446 11595 StaReport.cc:206] report the clock group **clock_gating_default** 2 timing paths.
+I20260331 17:53:16.344347 11595 StaReport.cc:211] report the clock group clk 5 timing paths.
+I20260331 17:53:16.344535 11595 StaReport.cc:206] report the clock group **clock_gating_default** 2 timing paths.
+I20260331 17:53:16.344573 11595 StaReport.cc:211] report the clock group clk 1 timing paths.
+I20260331 17:53:16.344581 11595 StaReport.cc:206] report the clock group **clock_gating_default** 1 timing paths.
+I20260331 17:53:16.344587 11595 Sta.cc:1885] 
++-------------------+--------------------------+------------+------------+---------------+-------+--------+-----------+
+| Endpoint          | Clock Group              | Delay Type | Path Delay | Path Required | CPPR  | Slack  | Freq(MHz) |
++-------------------+--------------------------+------------+------------+---------------+-------+--------+-----------+
+| acc_0_            | clk                      | max        | 0.109r     | -2.000        | 0.000 | -2.109 | 321.602   |
+| acc_3_            | clk                      | max        | 0.099r     | -2.000        | 0.000 | -2.099 | 322.677   |
+| acc_0_            | clk                      | max        | 0.097f     | -2.000        | 0.000 | -2.097 | 322.907   |
+| acc_2_            | clk                      | max        | 0.094r     | -2.000        | 0.000 | -2.094 | 323.170   |
+| acc_4_            | clk                      | max        | 0.093r     | -2.000        | 0.000 | -2.093 | 323.266   |
+| en_ICGX0P5H7L_E:E | **clock_gating_default** | max        | 2.000r     | 1.000         | 0.000 | -1.000 | NA        |
+| en_ICGX0P5H7L_E:E | **clock_gating_default** | max        | 2.000f     | 1.000         | 0.000 | -1.000 | NA        |
+| carry_reg_p:D     | clk                      | min        | 0.125r     | -0.012        | 0.000 | 0.138  | NA        |
+| carry_reg_p:D     | clk                      | min        | 0.122f     | -0.023        | 0.000 | 0.146  | NA        |
+| acc[0]_reg_p:D    | clk                      | min        | 0.164r     | -0.012        | 0.000 | 0.176  | NA        |
+| acc[1]_reg_p:D    | clk                      | min        | 0.165r     | -0.012        | 0.000 | 0.177  | NA        |
+| acc[3]_reg_p:D    | clk                      | min        | 0.172r     | -0.009        | 0.000 | 0.180  | NA        |
+| en_ICGX0P5H7L_E:E | **clock_gating_default** | min        | 2.000r     | 0.000         | 0.000 | 2.000  | NA        |
+| en_ICGX0P5H7L_E:E | **clock_gating_default** | min        | 2.000f     | 0.000         | 0.000 | 2.000  | NA        |
++-------------------+--------------------------+------------+------------+---------------+-------+--------+-----------+
+I20260331 17:53:16.344949 11595 Sta.cc:1886] 
++-------+------------+---------+
+| Clock | Delay Type | TNS     |
++-------+------------+---------+
+| clk   | max        | -76.748 |
+| clk   | min        | 0.000   |
++-------+------------+---------+
+I20260331 17:53:16.353797 11595 NetlistWriter.cc:52] start write verilog file /home/vboxuser/soc-axi-dma-platform/syn_results/top-100MHz/top.v
+I20260331 17:53:16.354821 11595 NetlistWriter.cc:71] finish write verilog file /home/vboxuser/soc-axi-dma-platform/syn_results/top-100MHz/top.v
+I20260331 17:53:16.354955 11595 Sta.cc:3111] used lib: /home/vboxuser/tools/yosys-sta/scripts/../pdk/icsprout55/IP/STD_cell/ics55_LLSC_H7C_V1p10C100/ics55_LLSC_H7CL/liberty/ics55_LLSC_H7CL_typ_tt_1p2_25_nldm.lib
+I20260331 17:53:16.354974 11595 Sta.cc:3096] The timing engine run success.
+I20260331 17:53:16.355208 11595 Power.cc:854] build graph and seq graph start
+I20260331 17:53:16.355248 11595 PwrBuildGraph.cc:80] build power graph start
+I20260331 17:53:16.355614 11595 PwrBuildGraph.cc:170] build power graph end
+I20260331 17:53:16.355757 11595 PwrBuildGraph.cc:172] build power graph memory usage 0MB
+I20260331 17:53:16.355777 11595 PwrBuildGraph.cc:174] build power graph time elapsed 0.000528s
+I20260331 17:53:16.355808 11595 PwrBuildSeqGraph.cc:326] build seq graph start
+I20260331 17:53:16.543510 11595 PwrBuildSeqGraph.cc:330] build seq graph end
+I20260331 17:53:16.543619 11595 PwrBuildSeqGraph.cc:332] seq inst num: 9
+I20260331 17:53:16.543635 11595 PwrBuildSeqGraph.cc:333] input port num: 11
+I20260331 17:53:16.543638 11595 PwrBuildSeqGraph.cc:334] output port num: 9
+I20260331 17:53:16.543642 11595 PwrBuildSeqGraph.cc:335] seq macro num: 0
+I20260331 17:53:16.543650 11595 PwrBuildSeqGraph.cc:336] seq arc num: 106
+I20260331 17:53:16.543653 11595 PwrBuildSeqGraph.cc:339] seq vertex max fanout: 10
+I20260331 17:53:16.543658 11595 PwrBuildSeqGraph.cc:340] seq vertex max fanin: 17
+I20260331 17:53:16.543700 11595 PwrBuildSeqGraph.cc:343] build seq graph memory usage 131.796MB
+I20260331 17:53:16.543711 11595 PwrBuildSeqGraph.cc:345] build seq graph time elapsed 0.187903s
+I20260331 17:53:16.543718 11595 Power.cc:861] build graph and seq graph end
+I20260331 17:53:16.543794 11595 Power.cc:863] build graph and seq graph memory usage 131.796MB
+I20260331 17:53:16.543805 11595 Power.cc:866] build graph and seq graph time elapsed 0.188621s
+I20260331 17:53:16.543823 11595 Power.cc:871] power annotate vcd start
+I20260331 17:53:16.543826 11595 Power.cc:128] annotate toggle sp start
+I20260331 17:53:16.543831 11595 Power.cc:134] annotate toggle sp end
+I20260331 17:53:16.543834 11595 Power.cc:878] power vcd annotate end
+I20260331 17:53:16.543848 11595 Power.cc:880] power vcd annotate memory usage 0MB
+I20260331 17:53:16.543853 11595 Power.cc:882] power vcd annotate time elapsed 3.1e-05s
+I20260331 17:53:16.543926 11595 Power.cc:896] power propagation start
+I20260331 17:53:16.543952 11595 PwrCheckPipelineLoop.cc:122] check pipeline loop start
+I20260331 17:53:16.543970 11595 PwrCheckPipelineLoop.cc:129] check pipeline loop end
+I20260331 17:53:16.543988 11595 PwrCheckPipelineLoop.cc:137] check pipeline loop memory usage 0MB
+I20260331 17:53:16.544044 11595 PwrCheckPipelineLoop.cc:139] check pipeline loop time elapsed 9e-05s
+I20260331 17:53:16.544075 11595 PwrLevelizeSeqGraph.cc:93] seq levelization start
+I20260331 17:53:16.544086 11595 PwrLevelizeSeqGraph.cc:101] seq levelization end
+I20260331 17:53:16.544090 11595 PwrLevelizeSeqGraph.cc:103] the seq graph's level depth 11
+I20260331 17:53:16.544111 11595 PwrLevelizeSeqGraph.cc:116] levelization memory usage 0MB
+I20260331 17:53:16.544165 11595 PwrLevelizeSeqGraph.cc:118] levelization time elapsed 9e-05s
+I20260331 17:53:16.544212 11595 PwrPropagateConst.cc:184] propagate const start
+I20260331 17:53:16.544260 11595 PwrPropagateConst.cc:288] propagate const end
+I20260331 17:53:16.544531 11595 PwrPropagateConst.cc:290] propagate const memory usage 0MB
+I20260331 17:53:16.544541 11595 PwrPropagateConst.cc:292] propagate const time elapsed 0.00033s
+I20260331 17:53:16.544588 11595 PwrPropagateToggleSP.cc:202] propagate toggle sp start
+I20260331 17:53:16.559854 11595 PwrPropagateToggleSP.cc:316] propagate toggle sp end
+I20260331 17:53:16.559999 11595 PwrPropagateToggleSP.cc:319] propagate toggle sp memory usage 0MB
+I20260331 17:53:16.560021 11595 PwrPropagateToggleSP.cc:321] propagate toggle sp time elapsed 0.015433s
+I20260331 17:53:16.560053 11595 PwrPropagateClock.cc:68] propagate clock start
+I20260331 17:53:16.560110 11595 PwrPropagateClock.cc:80] propagate clock end
+I20260331 17:53:16.560140 11595 PwrPropagateClock.cc:82] propagate clock memory usage 0MB
+I20260331 17:53:16.560150 11595 PwrPropagateClock.cc:84] propagate clock time elapsed 9.8e-05s
+I20260331 17:53:16.560158 11595 Power.cc:914] power propagation end
+I20260331 17:53:16.560180 11595 Power.cc:916] power propagation memory usage 0MB
+I20260331 17:53:16.560189 11595 Power.cc:918] power propagation time elapsed 0.016264s
+I20260331 17:53:16.560262 11595 Power.cc:267] power calculation start
+I20260331 17:53:16.560309 11595 PwrCalcLeakagePower.cc:85] calc leakage power start
+I20260331 17:53:16.576591 11595 PwrCalcLeakagePower.cc:119] calc leakage power result 0.000147417mw
+I20260331 17:53:16.576769 11595 PwrCalcLeakagePower.cc:122] calc leakage power end
+I20260331 17:53:16.576848 11595 PwrCalcLeakagePower.cc:124] calc leakage power memory usage 0MB
+I20260331 17:53:16.576859 11595 PwrCalcLeakagePower.cc:126] calc leakage power time elapsed 0.01655s
+I20260331 17:53:16.576939 11595 PwrCalcInternalPower.cc:565] calc internal power start
+[0;31mE20260331 17:53:16.577270 11595 PwrCalcInternalPower.cc:205] sum_0__XOR2X0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.577464 11595 PwrCalcInternalPower.cc:97] sum_1__XNOR2X0P5H7L_Y_A_NAND2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577483 11595 PwrCalcInternalPower.cc:97] sum_1__XNOR2X0P5H7L_Y_A_NAND2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577530 11595 PwrCalcInternalPower.cc:205] sum_1__XNOR2X0P5H7L_Y_A_NAND2X0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.577788 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577811 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577819 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577829 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577838 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577847 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577855 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577864 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577872 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577881 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577889 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577898 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577906 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577914 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577922 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577930 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577956 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577966 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577975 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577984 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.577992 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578002 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578011 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578030 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578040 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578049 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578209 11595 PwrCalcInternalPower.cc:205] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y:A0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.578513 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578529 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578538 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578547 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578553 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578562 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578657 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578668 11595 PwrCalcInternalPower.cc:97] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.578686 11595 PwrCalcInternalPower.cc:205] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:A0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.578769 11595 PwrCalcInternalPower.cc:205] sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.579016 11595 PwrCalcInternalPower.cc:205] sum_2__XNOR2X0P5H7L_Y_B_XNOR2X0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.579263 11595 PwrCalcInternalPower.cc:205] sum_3__XNOR2X1P4H7L_Y_B_XOR2X0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.580590 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A0_OR2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.580685 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A0_OR2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.580956 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A1_OAI21X1P4H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581032 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A1_OAI21X1P4H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581099 11595 PwrCalcInternalPower.cc:205] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A1_OAI21X1P4H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.581161 11595 PwrCalcInternalPower.cc:205] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A1_OAI21X1P4H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.581195 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581207 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581216 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581224 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581233 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581240 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581248 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581269 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581278 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581286 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581295 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.581303 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582155 11595 PwrCalcInternalPower.cc:205] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y_A0_INVX0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.582289 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AND2X1H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582309 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AND2X1H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582814 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582894 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582911 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582916 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582922 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582927 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582932 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582938 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582943 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582949 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582954 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582959 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582975 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.582981 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.583104 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.583163 11595 PwrCalcInternalPower.cc:97] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.583210 11595 PwrCalcInternalPower.cc:205] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.583288 11595 PwrCalcInternalPower.cc:205] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.583429 11595 PwrCalcInternalPower.cc:205] sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.583487 11595 PwrCalcInternalPower.cc:205] sum_4__XNOR2X1P4H7L_Y_B_XOR2X0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.583808 11595 PwrCalcInternalPower.cc:97] sum_5__XOR2X1P4H7L_Y_A_AOI2BB1X0P5H7L_B0:A0N rise slew is not exist.
+[m[0;31mE20260331 17:53:16.583880 11595 PwrCalcInternalPower.cc:97] sum_5__XOR2X1P4H7L_Y_A_AOI2BB1X0P5H7L_B0:A0N rise slew is not exist.
+[m[0;31mE20260331 17:53:16.583895 11595 PwrCalcInternalPower.cc:97] sum_5__XOR2X1P4H7L_Y_A_AOI2BB1X0P5H7L_B0:A0N rise slew is not exist.
+[m[0;31mE20260331 17:53:16.583901 11595 PwrCalcInternalPower.cc:97] sum_5__XOR2X1P4H7L_Y_A_AOI2BB1X0P5H7L_B0:A0N rise slew is not exist.
+[m[0;31mE20260331 17:53:16.584030 11595 PwrCalcInternalPower.cc:205] sum_5__XOR2X1P4H7L_Y_A_XNOR2X0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.584259 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_A_XOR2X0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.586088 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_B0_NAND2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586187 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_B0_NAND2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586256 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586264 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586269 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586275 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586280 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586287 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586292 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586297 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586302 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586308 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586313 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586319 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586335 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586342 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586347 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586352 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586359 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586365 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586385 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586396 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586405 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.586413 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587030 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587108 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587128 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587139 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587149 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587158 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587167 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587177 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587186 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587196 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587205 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587214 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587224 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587232 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587308 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587328 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587350 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587361 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587371 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587380 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587389 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587399 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587472 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587493 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587507 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.587517 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588167 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588254 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588274 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588285 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588295 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588305 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588315 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588323 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588333 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588342 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588351 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588361 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588371 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588446 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588466 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588477 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588497 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588508 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588517 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588527 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588536 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588546 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588564 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.588577 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.589097 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.589327 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.589820 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.590034 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:A0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.590701 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.590924 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.591145 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.591372 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.591902 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.592118 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.592283 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.592373 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y:C0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.592830 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AND2X1H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.592911 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AND2X1H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593641 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593756 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593779 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593789 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593834 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593850 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593861 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593871 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593948 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593968 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.593994 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.594007 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.594017 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.594025 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.594233 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.594329 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:B0 rise slew is not exist.
+[m[0;31mE20260331 17:53:16.594369 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:A1 input slew is not exist.
+[m[0;31mE20260331 17:53:16.594465 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.594683 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.594856 11595 PwrCalcInternalPower.cc:205] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y:B0 input slew is not exist.
+[m[0;31mE20260331 17:53:16.594960 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_B0_OR2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.594980 11595 PwrCalcInternalPower.cc:97] sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_B0_OR2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.596261 11595 PwrCalcInternalPower.cc:205] sum_7__XNOR2X1P4H7L_Y_B_XOR2X0P5H7L_Y:A input slew is not exist.
+[m[0;31mE20260331 17:53:16.598001 11595 PwrCalcInternalPower.cc:97] sum_8__OAOI211X1P4H7L_Y_A1_NOR2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.598115 11595 PwrCalcInternalPower.cc:97] sum_8__OAOI211X1P4H7L_Y_A1_NOR2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.598538 11595 PwrCalcInternalPower.cc:97] sum_8__OAOI211X1P4H7L_Y_C0_NOR2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.598613 11595 PwrCalcInternalPower.cc:97] sum_8__OAOI211X1P4H7L_Y_C0_NOR2X0P5H7L_Y:A rise slew is not exist.
+[m[0;31mE20260331 17:53:16.598654 11595 PwrCalcInternalPower.cc:205] sum_8__OAOI211X1P4H7L_Y_C0_NOR2X0P5H7L_Y:A input slew is not exist.
+[mI20260331 17:53:16.598673 11595 PwrCalcInternalPower.cc:605] calc internal power result 0.411411mW
+I20260331 17:53:16.598681 11595 PwrCalcInternalPower.cc:607] calc internal power end
+I20260331 17:53:16.598721 11595 PwrCalcInternalPower.cc:609] calc internal power memory usage 0MB
+I20260331 17:53:16.598726 11595 PwrCalcInternalPower.cc:611] calc internal power time elapsed 0.021788s
+I20260331 17:53:16.598747 11595 PwrCalcSwitchPower.cc:89] calc switch power start
+I20260331 17:53:16.598869 11595 PwrCalcSwitchPower.cc:173] calc switch power result 0mw
+I20260331 17:53:16.598939 11595 PwrCalcSwitchPower.cc:175] calc switch power end
+I20260331 17:53:16.598970 11595 PwrCalcSwitchPower.cc:177] calc switch power memory usage 0MB
+I20260331 17:53:16.598976 11595 PwrCalcSwitchPower.cc:179] calc switch power time elapsed 0.000231s
+I20260331 17:53:16.599265 11595 Power.cc:275] power calculation end
+I20260331 17:53:16.599351 11595 Power.cc:277] power calculation memory usage 0MB
+I20260331 17:53:16.599361 11595 Power.cc:279] power calculation time elapsed 0.039101s
+I20260331 17:53:16.599378 11595 Power.cc:981] power report start, output dir: /home/vboxuser/soc-axi-dma-platform/syn_results/top-100MHz
+I20260331 17:53:16.599524 11595 Power.cc:491] 
++---------------+----------------+--------------+---------------+-------------+-----------+
+| Power Group   | Internal Power | Switch Power | Leakage Power | Total Power | (%)       |
++---------------+----------------+--------------+---------------+-------------+-----------+
+| combinational | 3.750e-04      | 0.000e+00    | 8.278e-08     | 3.751e-04   | (91.140%) |
+| sequential    | 3.640e-05      | 0.000e+00    | 6.464e-08     | 3.646e-05   | (8.860%)  |
++---------------+----------------+--------------+---------------+-------------+-----------+
+I20260331 17:53:16.599694 11595 Power.cc:543] Total Power   ==  0.000411558 W
+I20260331 17:53:16.600085 11595 Power.cc:669] Instance Power Report: 
+I20260331 17:53:16.600147 11595 Power.cc:670] 
++----------------------------------------------------------------------------+-----------------+----------------+--------------+---------------+-------------+
+| Instance Name                                                              | Nominal Voltage | Internal Power | Switch Power | Leakage Power | Total Power |
++----------------------------------------------------------------------------+-----------------+----------------+--------------+---------------+-------------+
+| sum_6__XNOR2X4H7L_Y                                                        | 1.2             | 3.869e-05      | 0.000e+00    | 4.904e-09     | 3.870e-05   |
+| sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y                       | 1.2             | 2.989e-05      | 0.000e+00    | 2.078e-09     | 2.989e-05   |
+| sum_7__XNOR2X1P4H7L_Y_A_OAOI211X2H7L_Y                                     | 1.2             | 2.840e-05      | 0.000e+00    | 1.288e-09     | 2.840e-05   |
+| sum_7__XNOR2X1P4H7L_Y                                                      | 1.2             | 2.748e-05      | 0.000e+00    | 3.284e-09     | 2.749e-05   |
+| sum_8__OAOI211X1P4H7L_Y                                                    | 1.2             | 2.299e-05      | 0.000e+00    | 1.009e-09     | 2.299e-05   |
+| sum_4__XNOR2X1P4H7L_Y                                                      | 1.2             | 2.283e-05      | 0.000e+00    | 3.276e-09     | 2.283e-05   |
+| sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_C0_OAI222X1H7L_Y      | 1.2             | 2.220e-05      | 0.000e+00    | 9.764e-10     | 2.220e-05   |
+| sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y                                         | 1.2             | 2.218e-05      | 0.000e+00    | 1.135e-09     | 2.218e-05   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y                                       | 1.2             | 2.180e-05      | 0.000e+00    | 1.283e-09     | 2.180e-05   |
+| sum_5__XOR2X1P4H7L_Y                                                       | 1.2             | 1.711e-05      | 0.000e+00    | 3.260e-09     | 1.712e-05   |
+| sum_3__XNOR2X1P4H7L_Y                                                      | 1.2             | 1.490e-05      | 0.000e+00    | 3.274e-09     | 1.491e-05   |
+| sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_A_AOI31X4H7L_Y                       | 1.2             | 1.413e-05      | 0.000e+00    | 2.342e-09     | 1.413e-05   |
+| sum_8__OAOI211X1P4H7L_Y_B0_OAI21X0P5H7L_Y                                  | 1.2             | 9.536e-06      | 0.000e+00    | 7.059e-10     | 9.537e-06   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y                       | 1.2             | 8.949e-06      | 0.000e+00    | 1.059e-09     | 8.950e-06   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N                   | 1.2             | 7.928e-06      | 0.000e+00    | 2.064e-09     | 7.930e-06   |
+| sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N                   | 1.2             | 6.258e-06      | 0.000e+00    | 1.719e-09     | 6.260e-06   |
+| sum_2__XNOR2X0P5H7L_Y                                                      | 1.2             | 5.517e-06      | 0.000e+00    | 3.238e-09     | 5.520e-06   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AOI2BB1X2H7L_A1N_B0_AOI31X0P5H7L_Y | 1.2             | 5.195e-06      | 0.000e+00    | 7.419e-10     | 5.196e-06   |
+| sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AOI2BB1X0P5H7L_A1N_B0_AOI31X0P5H7L_Y | 1.2             | 5.174e-06      | 0.000e+00    | 7.420e-10     | 5.175e-06   |
+| carry_reg_p                                                                | 1.2             | 4.701e-06      | 0.000e+00    | 6.633e-09     | 4.707e-06   |
+| acc[7]_reg_p                                                               | 1.2             | 4.658e-06      | 0.000e+00    | 6.660e-09     | 4.665e-06   |
+| acc[6]_reg_p                                                               | 1.2             | 4.654e-06      | 0.000e+00    | 6.663e-09     | 4.661e-06   |
+| acc[5]_reg_p                                                               | 1.2             | 4.654e-06      | 0.000e+00    | 6.667e-09     | 4.661e-06   |
+| acc[4]_reg_p                                                               | 1.2             | 4.654e-06      | 0.000e+00    | 6.663e-09     | 4.661e-06   |
+| acc[3]_reg_p                                                               | 1.2             | 4.650e-06      | 0.000e+00    | 6.663e-09     | 4.656e-06   |
+| acc[2]_reg_p                                                               | 1.2             | 4.489e-06      | 0.000e+00    | 6.608e-09     | 4.495e-06   |
+| sum_5__XOR2X1P4H7L_Y_B_NOR2X1P4H7L_Y                                       | 1.2             | 3.830e-06      | 0.000e+00    | 9.863e-10     | 3.831e-06   |
+| sum_5__XOR2X1P4H7L_Y_A_AOI2BB1X0P5H7L_B0                                   | 1.2             | 3.593e-06      | 0.000e+00    | 1.598e-09     | 3.594e-06   |
+| sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_B0_OR2X0P5H7L_Y                         | 1.2             | 3.373e-06      | 0.000e+00    | 1.513e-09     | 3.375e-06   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A0_OR2X0P5H7L_Y                       | 1.2             | 3.369e-06      | 0.000e+00    | 1.512e-09     | 3.370e-06   |
+| sum_3__XNOR2X1P4H7L_Y_A_NAND2X1P4H7L_Y                                     | 1.2             | 3.210e-06      | 0.000e+00    | 7.196e-10     | 3.211e-06   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A1_OAI21X1P4H7L_Y                     | 1.2             | 3.110e-06      | 0.000e+00    | 9.050e-10     | 3.111e-06   |
+| sum_1__XNOR2X0P5H7L_Y                                                      | 1.2             | 2.794e-06      | 0.000e+00    | 3.113e-09     | 2.797e-06   |
+| acc[1]_reg_p                                                               | 1.2             | 2.327e-06      | 0.000e+00    | 6.663e-09     | 2.334e-06   |
+| sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y_B_AOI21X4H7L_Y                       | 1.2             | 2.247e-06      | 0.000e+00    | 2.144e-09     | 2.249e-06   |
+| sum_8__OAOI211X1P4H7L_Y_A0_NOR2X0P5H7L_Y                                   | 1.2             | 1.760e-06      | 0.000e+00    | 7.388e-10     | 1.761e-06   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_B0_AND2X1H7L_Y                        | 1.2             | 1.670e-06      | 0.000e+00    | 1.102e-09     | 1.671e-06   |
+| sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A2_AND2X1H7L_Y                          | 1.2             | 1.664e-06      | 0.000e+00    | 1.103e-09     | 1.666e-06   |
+| sum_6__XNOR2X4H7L_Y_B_OAI31X2H7L_Y_A1_OAOI211X4H7L_Y_B0_NAND2X0P5H7L_Y     | 1.2             | 1.314e-06      | 0.000e+00    | 5.567e-10     | 1.315e-06   |
+| sum_5__XOR2X1P4H7L_Y_A_XNOR2X0P5H7L_Y                                      | 1.2             | 1.110e-06      | 0.000e+00    | 3.089e-09     | 1.113e-06   |
+| sum_2__XNOR2X0P5H7L_Y_B_XNOR2X0P5H7L_Y                                     | 1.2             | 1.103e-06      | 0.000e+00    | 3.089e-09     | 1.106e-06   |
+| sum_6__XNOR2X4H7L_Y_A_XOR2X0P5H7L_Y                                        | 1.2             | 1.103e-06      | 0.000e+00    | 3.089e-09     | 1.106e-06   |
+| sum_0__XOR2X0P5H7L_Y                                                       | 1.2             | 1.102e-06      | 0.000e+00    | 3.089e-09     | 1.105e-06   |
+| sum_7__XNOR2X1P4H7L_Y_B_XOR2X0P5H7L_Y                                      | 1.2             | 1.099e-06      | 0.000e+00    | 3.089e-09     | 1.102e-06   |
+| sum_3__XNOR2X1P4H7L_Y_B_XOR2X0P5H7L_Y                                      | 1.2             | 1.099e-06      | 0.000e+00    | 3.089e-09     | 1.102e-06   |
+| sum_4__XNOR2X1P4H7L_Y_B_XOR2X0P5H7L_Y                                      | 1.2             | 1.099e-06      | 0.000e+00    | 3.089e-09     | 1.102e-06   |
+| sum_1__XNOR2X0P5H7L_Y_B_XOR2X0P5H7L_Y                                      | 1.2             | 1.099e-06      | 0.000e+00    | 3.089e-09     | 1.102e-06   |
+| acc[0]_reg_p                                                               | 1.2             | 9.298e-07      | 0.000e+00    | 6.669e-09     | 9.364e-07   |
+| sum_8__OAOI211X1P4H7L_Y_A1_NOR2X0P5H7L_Y                                   | 1.2             | 9.047e-07      | 0.000e+00    | 6.484e-10     | 9.053e-07   |
+| sum_2__XNOR2X0P5H7L_Y_A_NOR2X0P5H7L_Y                                      | 1.2             | 7.997e-07      | 0.000e+00    | 5.954e-10     | 8.003e-07   |
+| en_ICGX0P5H7L_E                                                            | 1.2             | 6.838e-07      | 0.000e+00    | 4.747e-09     | 6.886e-07   |
+| sum_8__OAOI211X1P4H7L_Y_C0_NOR2X0P5H7L_Y                                   | 1.2             | 5.966e-07      | 0.000e+00    | 5.947e-10     | 5.972e-07   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y_B0_INVX0P5H7L_Y       | 1.2             | 3.789e-07      | 0.000e+00    | 6.718e-10     | 3.795e-07   |
+| sum_1__XNOR2X0P5H7L_Y_A_NAND2X0P5H7L_Y                                     | 1.2             | 3.688e-07      | 0.000e+00    | 5.479e-10     | 3.693e-07   |
+| sum_4__XNOR2X1P4H7L_Y_A_AOI31X2H7L_Y_A2_OAI31X2H7L_Y_A0_INVX0P5H7L_Y       | 1.2             | 4.411e-08      | 0.000e+00    | 6.395e-10     | 4.475e-08   |
++----------------------------------------------------------------------------+-----------------+----------------+--------------+---------------+-------------+
+I20260331 17:53:16.601504 11595 Power.cc:1047] power report end, output dir: /home/vboxuser/soc-axi-dma-platform/syn_results/top-100MHz
+I20260331 17:53:16.601655 11595 Power.cc:1049] power report memory usage 0MB
+I20260331 17:53:16.601672 11595 Power.cc:1051] power report time elapsed 0.002294s

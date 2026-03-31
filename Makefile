@@ -68,5 +68,5 @@ sta:
 # ============================================
 .PHONY: clean
 clean:
-	rm -rf sim_build results.xml  waves/dump.fst
+	rm -rf sim_build results.xml  waves/dump.fst dump.vcd
 	rm -rf $(SYN_OUT_DIR)
