@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1774942950" />
+    <testcase name="accumulator_test" classname="tb.test_smoke" file="/home/vboxuser/soc-axi-dma-platform/tb/test_smoke.py" lineno="7" time="0.009973526000976562" sim_time_ns="415.0" ratio_time="41610.15873015873" />
+  </testsuite>
+</testsuites>
